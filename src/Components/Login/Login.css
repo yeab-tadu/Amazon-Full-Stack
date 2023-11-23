@@ -1,0 +1,92 @@
+.Login {
+  font-family: sans-serif;
+  background-color: #eaeded;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Login_logo {
+  margin-top: 28px;
+  margin-bottom: 20px;
+  object-fit: contain;
+  width: 100px;
+  margin-right: auto;
+  margin-left: auto;
+  color: #111;
+}
+
+.Login_container {
+  background-color: azure;
+  width: 300px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  border: 1.5px solid #000;
+  padding: 20px;
+}
+
+.sign_in {
+  font-weight: 500;
+  margin-bottom: 20px;
+  margin-left: 32%;
+}
+
+.e_mail,
+.password {
+  margin-bottom: 5px;
+}
+
+.e_mail_filed,
+.password_filed {
+  height: 30px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  background-color: white;
+  width: 98%;
+}
+
+.Login_text {
+  margin-bottom: 15px;
+  font-size: 12px;
+  font-family: sans-serif;
+}
+
+.Login_signIN_button {
+  background: #f0c14b;
+  border-radius: 2px;
+  width: 100%;
+  height: 30px;
+  border: 1px solid;
+  margin-top: 10px;
+  margin-bottom: 5%;
+  border-color: #a88734 #9c7e31 #846a29;
+  color: #111;
+  padding: 5px;
+  box-shadow: 0 6px 18px -9px rgb(0, 0, 0, 0.75);
+  cursor: pointer;
+}
+
+.Login_register_button {
+  border-radius: 2px;
+  width: 100%;
+  height: 30px;
+  border: 1px solid;
+  margin-top: 10px;
+  border-color: darkgray;
+  color: #111;
+  padding: 5px;
+  box-shadow: 0 6px 18px -9px rgb(0, 0, 0, 0.75);
+  cursor: pointer;
+}
+
+.click_Login_logo {
+  cursor: pointer;
+}
+
+.click_signIn_button {
+  cursor: pointer;
+  text-decoration: none;
+}
